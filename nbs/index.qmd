@@ -44,11 +44,11 @@ Press the buttom bellow or `CTRL+K` or `CMD+K` on your keyboard.
 </button>
 
 *Navigation*
-<button type="button" onclick="window.location.assign(location.origin)" class="btn btn-outline-primary d-flex">
+<button type="button" onclick="window.location.assign(location.origin + '/ply_gitpod_quarto_nbdev_command-k-bar/')" class="btn btn-outline-primary d-flex">
 <div class="me-auto p-2">Home</div >
 <div class="p-2">H</div >
 </button>
-<button type="button" onclick="window.location.assign(location.origin + '/about.html')" class="btn btn-outline-primary d-flex">
+<button type="button" onclick="window.location.assign(location.origin + '/ply_gitpod_quarto_nbdev_command-k-bar/about.html')" class="btn btn-outline-primary d-flex">
 <div class="me-auto p-2">About</div >
 <div class="p-2">A</div >
 </button>
