@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Example about me page by Quarto\nFinley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana.\nPhoto by Markus Spiske on Unsplash"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\nUniversity of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul MA B.A in Economics | Sept 2007 - June 2011"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "About",
+    "section": "Experience",
+    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "Note\n\n\n\nPlayground: Create a Command K Bar (with Search) for a Quarto (nbdev) Website\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nUse Bootstrap’s JavaScript modal plugin to add dialogs to your site for lightboxes, user notifications, or completely custom content. Press the buttom bellow or CTRL+K or CMD+K on your keyboard.\n\n\n\n\nCommand K Bar\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFunctionality \n\nCommand K Bar\n\n\nCTRL+K\n\n\nNavigation \n\nHome\n\n\nH\n\n\n\n\nAbout\n\n\nA"
+  }
+]
