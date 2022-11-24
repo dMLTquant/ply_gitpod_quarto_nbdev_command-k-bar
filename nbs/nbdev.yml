@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "Command-K Bar"
+  site-url: "https://dMLTquant.github.io/ply_gitpod_quarto_nbdev_command-k-bar"
+  description: "Playground: Create a Command K Bar (with Search) for a Quarto (nbdev) Website"
+  repo-branch: main
+  repo-url: "https://github.com/dMLTquant/ply_gitpod_quarto_nbdev_command-k-bar"
