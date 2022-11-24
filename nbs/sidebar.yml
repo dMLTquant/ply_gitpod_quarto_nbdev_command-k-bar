@@ -2,3 +2,7 @@ website:
   sidebar:
     contents:
       - index.qmd
+      - about.qmd
+      - command-k.html
+      - js-functions.html
+      - js-libraries.html

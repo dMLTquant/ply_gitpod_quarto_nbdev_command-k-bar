@@ -1,0 +1,27 @@
+<script type="text/javascript">
+
+    //Mousetrap Command K Modal
+    //Prevent default Browser Shortcuts https://support.microsoft.com/en-us/microsoft-edge/keyboard-shortcuts-in-microsoft-edge-50d3edab-30d9-c7e4-21ce-37fe2713cfad#:~:text=Open%20Downloads-,Ctrl%20%2B%20K,-Open%20a%20search
+    Mousetrap.bind(['ctrl+k', 'command+k'], function(e) {
+      e.stopPropagation();
+      e.preventDefault(); //Prevent default Browser Shortcuts 
+      return $('#command-k').modal('show');
+    });
+    
+    //Mousetrap Home Page
+    //https://www.w3schools.com/jsref/prop_loc_origin.asp
+    Mousetrap.bind('h', function(e) {
+      e.stopPropagation();
+      e.preventDefault(); //Prevent default Browser Shortcuts 
+      return window.location.assign(location.origin);
+    });
+    
+    //Mousetrap About Page
+    //https://www.w3schools.com/jsref/prop_loc_origin.asp
+    Mousetrap.bind('a', function(e) {
+      e.stopPropagation();
+      e.preventDefault(); //Prevent default Browser Shortcuts 
+      return window.location.assign(location.origin + "/about.html");
+    });
+    
+    </script>

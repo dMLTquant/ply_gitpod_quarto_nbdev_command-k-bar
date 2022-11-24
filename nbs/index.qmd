@@ -1,5 +1,5 @@
 ---
-title: "Example"
+title: "Home"
 ---
 
 # Overview
@@ -8,3 +8,60 @@ title: "Example"
 Playground: Create a Command K Bar (with Search) for a Quarto (nbdev) Website
 :::
 
+## Modal
+
+::: {.callout-tip}
+Use [Bootstrap’s JavaScript modal plugin](https://getbootstrap.com/docs/5.2/components/modal/#how-it-works) to add dialogs to your site for lightboxes, user notifications, or completely custom content.
+Press the buttom bellow or `CTRL+K` or `CMD+K` on your keyboard. 
+:::
+
+<!-- MODAL START -->
+<button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#command-k">Command K Bar</button>
+
+::: {.modal .fade id="command-k" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"}
+
+::: {.modal-dialog .modal-lg .modal-dialog-centered .modal-dialog-scrollable}
+
+::: {.modal-content}
+
+::: {.modal-header}
+
+### Command K Bar {.modal-title .fs-5 id="exampleModalLabel"}
+
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+<!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">X</button> -->
+
+:::
+
+::: {.modal-body .d-grid .gap-2}
+
+<div id="quarto-search" class="type-textbox" title="Search"></div>
+
+*Functionality*
+<button type="button" class="btn btn-outline-primary d-flex"> 
+<div class="me-auto p-2">Command K Bar</div >
+<div class="p-2">CTRL+K</div >
+</button>
+
+*Navigation*
+<button type="button" onclick="window.location.assign(location.origin)" class="btn btn-outline-primary d-flex">
+<div class="me-auto p-2">Home</div >
+<div class="p-2">H</div >
+</button>
+<button type="button" onclick="window.location.assign(location.origin + '/about.html')" class="btn btn-outline-primary d-flex">
+<div class="me-auto p-2">About</div >
+<div class="p-2">A</div >
+</button>
+
+:::
+
+<!-- ::: {.modal-footer}
+::: -->
+
+:::
+
+::: 
+
+::: 
+
+<!-- MODAL END -->
