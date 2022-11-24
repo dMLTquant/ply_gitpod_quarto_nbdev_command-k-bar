@@ -3,6 +3,8 @@ Playground: Create a Command K Bar (with Search) for a Quarto (nbdev) Website
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/dMLTquant/ply_gitpod_quarto_nbdev_command-k-bar)
 
+![image](https://user-images.githubusercontent.com/61799047/203839248-3e1a9127-278b-4baa-bde5-5af5bd804de4.png)
+
 ## Quarto
 
 > [Quarto®](https://quarto.org/) is an open-source scientific and technical publishing system built on Pandoc
